@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple invoice html template</title>
+</head>
+<body>
+
+<style>
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{width:21cm;height:29.7cm;font-family:"Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri,Helvetica,Arial}strong{font-weight:700}#container{padding:4%}#header{height:135px}#header > #reference{float:right;float:right;text-align:right}#header > #reference h3{margin:0}#header > #reference h4{margin:0;font-size:85%}#header > #reference p{margin:0;margin-top:2%;font-size:85%}#header > #logo{width:50%;float:left}#fromto{height:180px}#fromto > #from,#fromto > #to{width:45%;min-height:108px;margin-top:30px;font-size:85%;padding:1.5%;line-height:120%}#fromto > #from{float:left;width:45%;background:#efefef;margin-top:30px;font-size:85%;padding:1.5%;height:110px}#fromto > #to{float:right;border:solid grey 1px;height:108px}#items{margin-top:10px}#items > p{font-weight:700;text-align:right;margin-bottom:1%;font-size:65%}#items > table{width:100%;font-size:85%;border:solid grey 1px}#items > table th:first-child{text-align:left}#items > table th{font-weight:400;padding:1px 4px}#items > table td{padding:1px 4px}#items > table th:nth-child(2),#items > table th:nth-child(4){width:45px}#items > table th:nth-child(3){width:60px}#items > table th:nth-child(5){width:80px}#items > table tr td:not(:first-child){text-align:right;padding-right:1%}#items table td{border-right:solid grey 1px}#items table tr td{padding-top:3px;padding-bottom:3px;height:15px}#items table tr:nth-child(1){border:solid grey 1px}#items table tr th{border-right:solid grey 1px;padding:3px}#items table tr:nth-child(2) > td{padding-top:10px}#summary{height:200px}#summary table{margin-top:30px;font-size:85%;width:260px;float:right}#summary table td{padding:3px 4px;padding:3px 4px}#summary table tr td:last-child{text-align:right}#summary table tr:nth-child(3){background:#efefef}#footer{border-top:solid grey 1px}#footer p{margin-top:1%;font-size:65%;line-height:140%;text-align:center}
+</style>
+
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="http://placehold.it/250x100&text=logo" alt="">
+		</div>
+		<div id="reference">
+			<h3><strong>Facture</strong></h3>
+			<h4><strong>Réf. : FA1703-00001</strong></h4>
+			<p>Date facturation : 20/03/2017</p>
+		</div>
+	</div>
+
+	<div id="fromto">
+		<div id="from">
+			<p>
+				<strong>Your company</strong><br>
+				8 avenue des Champs Elysées <br>
+				75000 Paris <br><br>
+				Tél.: 01 00 00 00 00 <br>
+				Email: contact@website.com <br>
+				Web: www.website.com
+			</p>
+		</div>
+		<div id="to">
+			<p>
+				<strong>John Doe</strong><br>
+				10 rue Charles Rouxel<br>
+				77014 Paris
+			</p>
+		</div>
+	</div>
+
+	<div id="items">
+		<p>Montants exprimés en Euros</p>
+		<table>
+			<tr>
+				<th>Désignation</th>
+				<th>TVA</th>
+				<th>P.U. HT</th>
+				<th>Qté</th>
+				<th>Total HT</th>
+			</tr>
+			<tr>
+				<td>Article</td>
+				<td>20%</td>
+				<td>3,99</td>
+				<td>1</td>
+				<td>3,99</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="summary">
+		<table border="1">
+			<tr>
+				<td>Total HT</td>
+				<td>3,99</td>
+			</tr>
+			<tr>
+				<td>Total TVA 20%</td>
+				<td>0,80</td>
+			</tr>
+			<tr>
+				<td>Total TTC</td>
+				<td>4,79</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="footer">
+		<p>Société à responsabilité limité (SARL) - Capital de 1 000 000 € - SIRET: 87564738493127 <br>
+			NAF-APE: 6202A - Num. TVA: FR28987856541</p>
+	</div>
+
+</div>
+
+</body>
+</html>
